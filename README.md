@@ -72,4 +72,4 @@ Este proyecto está licenciado bajo la [Licencia MIT](LICENSE).
 
 ## Contacto
 
-Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto conmigo a través de [mi correo electrónico](mailto:tu@email.com).
+Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto conmigo a través de [mi correo electrónico](mailto:danielkissling65@email.com).
