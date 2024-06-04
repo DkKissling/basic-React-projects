@@ -1,75 +1,75 @@
 # Basic React Projects
 
-Este repositorio contiene una colección de proyectos básicos desarrollados con React. Cada proyecto tiene su propia carpeta y se enfoca en diferentes conceptos y funcionalidades de React.
+This repository contains a collection of basic projects developed with React. Each project has its own folder and focuses on different concepts and functionalities of React.
 
-## Proyectos
+## Projects
 
-1. **Blog Programador**
-  - Un blog simple para programadores donde pueden compartir sus conocimientos y experiencias.
-  - Utiliza React Router para manejar la navegación entre diferentes vistas (lista de artículos, detalles de artículo, crear nuevo artículo, etc.).
-  - Implementa el hook `useState` para manejar el estado local de los componentes.
-  - Aplica el hook `useEffect` para realizar efectos secundarios, como obtener datos de un servidor o realizar tareas de limpieza.
+1. **Programmer's Blog**
+  - A simple blog for programmers where they can share their knowledge and experiences.
+  - Uses React Router for handling navigation between different views (article list, article details, create new article, etc.).
+  - Implements the `useState` hook for managing the local state of components.
+  - Applies the `useEffect` hook for performing side effects, such as fetching data from a server or performing cleanup tasks.
 
-2. **Calculadora**
-  - Una calculadora básica con funciones aritméticas simples.
-  - Utiliza el hook `useState` para mantener el estado de la calculadora (valor actual, operación, etc.).
-  - Emplea componentes funcionales y la composición de componentes para una mejor modularidad.
+2. **Calculator**
+  - A basic calculator with simple arithmetic operations.
+  - Utilizes the `useState` hook to maintain the state of the calculator (current value, operation, etc.).
+  - Employs functional components and component composition for better modularity.
 
 3. **Game-Javascript**
-  - Un juego de ahorcado desarrollado con JavaScript.
-  - Utiliza el hook `useState` para mantener el estado del juego (palabra secreta, letras adivinadas, intentos restantes, etc.).
-  - Aplica el hook `useEffect` para realizar efectos secundarios, como inicializar el juego o verificar condiciones de victoria/derrota.
-  - Implementa componentes funcionales reutilizables para el tablero del juego, las letras, el dibujo del ahorcado, etc.
+  - A hangman game developed with JavaScript.
+  - Uses the `useState` hook to maintain the state of the game (secret word, guessed letters, remaining attempts, etc.).
+  - Applies the `useEffect` hook to perform side effects, such as initializing the game or checking for win/lose conditions.
+  - Implements reusable functional components for the game board, letters, hangman drawing, etc.
 
-4. **Listado de Tareas**
-  - Una aplicación para crear y gestionar listas de tareas, con la posibilidad de marcar las tareas completadas.
-  - Utiliza el hook `useState` para mantener el estado de las tareas (lista de tareas, tareas completadas, etc.).
-  - Aplica el hook `useEffect` para realizar efectos secundarios, como cargar tareas desde el almacenamiento local o guardar cambios.
-  - Implementa componentes funcionales reutilizables para la lista de tareas, el formulario de entrada y los elementos de tarea individuales.
+4. **Todo List**
+  - An application for creating and managing to-do lists, with the ability to mark tasks as completed.
+  - Utilizes the `useState` hook to maintain the state of tasks (task list, completed tasks, etc.).
+  - Applies the `useEffect` hook to perform side effects, such as loading tasks from local storage or saving changes.
+  - Implements reusable functional components for the task list, input form, and individual task items.
 
-5. **Página Simple de Ecommerce**
-  - Una página de comercio electrónico básica con un catálogo de productos y un carrito de compras.
-  - Utiliza React Router para manejar la navegación entre diferentes vistas (catálogo, detalles de producto, carrito, etc.).
-  - Implementa el hook `useState` para mantener el estado del carrito de compras y los productos seleccionados.
-  - Aplica el hook `useEffect` para realizar efectos secundarios, como obtener datos de productos desde un servidor o guardar el estado del carrito en el almacenamiento local.
+5. **Simple Ecommerce Page**
+  - A basic ecommerce page with a product catalog and a shopping cart.
+  - Uses React Router for handling navigation between different views (catalog, product details, cart, etc.).
+  - Implements the `useState` hook to maintain the state of the shopping cart and selected products.
+  - Applies the `useEffect` hook to perform side effects, such as fetching product data from a server or saving the cart state in local storage.
 
 6. **Card-Pokemos**
-  - Un juego de "Piedra, Papel y Tijeras" con un giro Pokémon, donde los jugadores eligen entre Fuego, Planta y Agua, representados por los tres Pokémones básicos de la primera generación.
-  - Utiliza el hook `useState` para mantener el estado del juego (elección del jugador, elección de la computadora, resultado, etc.).
-  - Implementa componentes funcionales reutilizables para el tablero del juego, las tarjetas de los Pokémones, el resultado, etc.
-  - Aplica el hook `useEffect` para realizar efectos secundarios, como inicializar el juego o verificar condiciones de victoria/derrota.
+  - A "Rock, Paper, Scissors" game with a Pokémon twist, where players choose between Fire, Grass, and Water, represented by the three basic Pokémon from the first generation.
+  - Utilizes the `useState` hook to maintain the state of the game (player's choice, computer's choice, result, etc.).
+  - Implements reusable functional components for the game board, Pokémon cards, result display, etc.
+  - Applies the `useEffect` hook to perform side effects, such as initializing the game or checking for win/lose conditions.
 
-Estos proyectos te permitirán explorar diferentes conceptos y características de React, como el manejo de estado, efectos, enrutamiento, composición de componentes y más. Cada proyecto está diseñado para ser escalable y ampliable, lo que te brinda la oportunidad de agregar características adicionales y mejorar tus habilidades en React.
+These projects will allow you to explore different concepts and features of React, such as state management, effects, routing, component composition, and more. Each project is designed to be scalable and extensible, providing you with the opportunity to add additional features and enhance your React skills.
 
-## Tecnologías utilizadas
+## Technologies Used
 
 - React
 - JavaScript
 - HTML
 - CSS
 
-## Instalación y ejecución
+## Installation and Running
 
-1. Clona este repositorio en tu máquina local.
-2. Navega hasta la carpeta del proyecto que desees ejecutar.
-3. Instala las dependencias ejecutando `npm install`.
-4. Inicia el servidor de desarrollo con `npm start`.
-5. Abre `http://localhost:3000` en tu navegador para ver la aplicación en funcionamiento.
+1. Clone this repository to your local machine.
+2. Navigate to the project folder you want to run.
+3. Install the dependencies by running `npm install`.
+4. Start the development server with `npm start`.
+5. Open `http://localhost:3000` in your browser to see the application in action.
 
-## Contribución
+## Contributing
 
-Si deseas contribuir a este repositorio, sigue estos pasos:
+If you wish to contribute to this repository, please follow these steps:
 
-1. Haz un fork de este repositorio.
-2. Crea una nueva rama para tu funcionalidad: `git checkout -b mi-nueva-funcionalidad`
-3. Realiza tus cambios y realiza commits descriptivos: `git commit -m "Agregar nueva funcionalidad"`
-4. Envía tus cambios a tu repositorio remoto: `git push origin mi-nueva-funcionalidad`
-5. Crea una nueva solicitud de extracción en este repositorio.
+1. Fork this repository.
+2. Create a new branch for your feature: `git checkout -b my-new-feature`
+3. Make your changes and commit with descriptive messages: `git commit -m "Add new feature"`
+4. Push your changes to your remote repository: `git push origin my-new-feature`
+5. Create a new pull request in this repository.
 
-## Licencia
+## License
 
-Este proyecto está licenciado bajo la [Licencia MIT](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
 
-## Contacto
+## Contact
 
-Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto conmigo a través de [mi correo electrónico](mailto:danielkissling65@email.com).
+If you have any questions or suggestions, feel free to contact me at [my email address](mailto:danielkissling65@email.com).
