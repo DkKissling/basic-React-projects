@@ -1,54 +1,71 @@
-# Calculadora con React
+# React Calculator
 
-Esta es una aplicación simple de calculadora construida con React, utilizando los hooks useState y useEffect.
+This is a simple calculator application built with React, utilizing the useState and useEffect hooks.
 
-## Características
+## Features
 
-- Realiza operaciones básicas: suma, resta, multiplicación y división.
-- Muestra el historial de operaciones realizadas.
-- Permite borrar el último dígito ingresado o limpiar completamente la entrada.
+- Performs basic operations: addition, subtraction, multiplication, and division.
+- Displays the history of operations performed.
+- Allows you to delete the last entered digit or clear the entire input.
 
-## Tecnologías utilizadas
-
-- React
-- HTML
-- CSS
-- JavaScript
-
-## Hooks utilizados
+## Hooks Used
 
 ### useState
 
-El hook `useState` se utiliza para manejar el estado de la calculadora, incluyendo:
+The `useState` hook is used to manage the calculator's state, including:
 
-- El valor actual mostrado en la pantalla.
-- El historial de operaciones realizadas.
+- The current value displayed on the screen.
+- The history of operations performed.
 
 ### useEffect
 
-El hook `useEffect` se utiliza para realizar ciertas tareas después de que se renderice el componente. En este caso, se utiliza para:
+The `useEffect` hook is used to perform certain tasks after the component renders. In this case, it is used to:
 
-- Actualizar el título de la página con el valor actual de la calculadora.
-- Actualizar el historial de operaciones en el navegador cuando se realiza una nueva operación.
+- Update the page title with the current calculator value.
+- Update the operation history in the browser when a new operation is performed.
 
-## Instalación y ejecución
+## Installation and Usage
 
-1. Clona este repositorio: `git clone https://github.com/tu-usuario/calculadora-react.git`
-2. Navega al directorio del proyecto: `cd calculadora-react`
-3. Instala las dependencias: `npm install`
-4. Inicia la aplicación: `npm start`
-5. Abre [http://localhost:3000](http://localhost:3000) para ver la aplicación en tu navegador.
+1. Clone this repository: 
+   ```bash
+   git clone https://github.com/your-username/react-calculator.git
+   ```
+2. Navigate to the project directory: 
+   ```bash
+   cd react-calculator
+   ```
+3. Install the dependencies: 
+   ```bash
+   npm install
+   ```
+4. Start the application: 
+   ```bash
+   npm start
+   ```
+5. Open [http://localhost:3000](http://localhost:3000) to view the application in your browser.
 
-## Contribución
+## Contributing
 
-Si deseas contribuir a este proyecto, puedes seguir estos pasos:
+If you would like to contribute to this project, you can follow these steps:
 
-1. Crea un fork de este repositorio.
-2. Crea una rama nueva: `git checkout -b feature/nueva-funcionalidad`
-3. Realiza tus cambios y haz commit: `git commit -m 'Agrega nueva funcionalidad'`
-4. Envía tus cambios al repositorio remoto: `git push origin feature/nueva-funcionalidad`
-5. Crea un Pull Request en este repositorio.
+1. Fork this repository.
+2. Create a new branch: 
+   ```bash
+   git checkout -b feature/new-feature
+   ```
+3. Make your changes and commit them: 
+   ```bash
+   git commit -m 'Add new feature'
+   ```
+4. Push your changes to the remote repository: 
+   ```bash
+   git push origin feature/new-feature
+   ```
+5. Create a Pull Request in this repository.
 
-## Licencia
+## Enjoy!
 
-Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
+I hope you enjoy using this calculator! If you have any questions or suggestions, feel free to email me at [danielkissling65@gmail.com].
+```
+
+Replace `your-username` with your actual GitHub username and `your-email@example.com` with your actual email address.
