@@ -1,78 +1,63 @@
 
-```markdown
-# Aplicación_de_Listado_de_Tareas - Aplicación de Listado de Tareas
+# Aplicación_de_Listado_de_Tareas
 
-Esta es una aplicación de listado de tareas desarrollada con React y estilizada con Tailwind CSS. La aplicación ofrece un acceso único para el usuario a través de credenciales predefinidas y presenta funcionalidades como un listado de tareas y un modo oscuro. Además, los datos de las tareas se obtienen de la API pública JSONPlaceholder.
+This is a task list application developed with React and styled with Tailwind CSS. The application offers a unique user access through predefined credentials and features functionalities such as a task list and a dark mode. Additionally, the task data is fetched from the public JSONPlaceholder API.
 
-## Instrucciones de Inicio
+## Getting Started
 
-Sigue estos pasos para configurar y ejecutar la aplicación en tu entorno local:
+Follow these steps to set up and run the application in your local environment:
 
-1. Clona este repositorio en tu máquina:
-
+1. Clone this repository to your machine:
    ```bash
-   git clone https://github.com/tu-usuario/Aplicación_de_Listado_de_Tareas.git
+   git clone https://github.com/your-username/Aplicación_de_Listado_de_Tareas.git
    ```
 
-2. Navega a la carpeta del proyecto:
-
+2. Navigate to the project directory:
    ```bash
    cd Aplicación_de_Listado_de_Tareas
    ```
 
-3. Instala las dependencias del proyecto:
-
+3. Install the project dependencies:
    ```bash
    npm install
    ```
 
-4. Inicia la aplicación:
-
+4. Start the application:
    ```bash
    npm start
    ```
 
-La aplicación se ejecutará en tu navegador en la dirección [http://localhost:3000](http://localhost:3000).
+The application will run in your browser at [http://localhost:3000](http://localhost:3000).
 
-## Características
+## Features
 
-### Autenticación
+### Authentication
+The application has a predefined user authentication. You can use the following credentials to log in:
+- Username: `user`
+- Password: `pass`
 
-La aplicación tiene una autenticación de usuario predefinida. Puedes utilizar las siguientes credenciales para acceder:
+### Task List
+Once authenticated, you will be able to view a list of tasks fetched from the JSONPlaceholder API. These tasks are displayed in a list, and you can mark them as completed.
 
-- Usuario: `user`
-- Contraseña: `pass`
+### Dark Mode
+The application provides a button to enable or disable the dark mode. The state of the dark mode is persisted even if the application is restarted.
 
-### Listado de Tareas
+### User Persistence
+The application remembers if you are authenticated, so you don't need to enter your credentials again after an application restart. If you were authenticated in your previous session, the application will start in that state.
 
-Una vez autenticado, podrás ver un listado de tareas obtenido de la API JSONPlaceholder. Estas tareas se muestran en una lista y puedes marcarlas como completadas.
+## Task Data
+The task data is fetched from the public [JSONPlaceholder](https://jsonplaceholder.typicode.com/todos) API.
 
-### Modo Oscuro
+## Contributing
+If you'd like to contribute to this project, feel free to open issues or submit pull requests on the GitHub repository.
 
-La aplicación ofrece un botón para habilitar o deshabilitar el modo oscuro. El estado del modo oscuro se guarda incluso si la aplicación se reinicia.
-
-### Persistencia de Usuario
-
-La aplicación recuerda si estás autenticado, de modo que no necesitas ingresar tus credenciales nuevamente después de un corte en la aplicación. Si quedaste autenticado en tu sesión anterior, la aplicación iniciará en ese estado.
-
-## Datos de Tareas
-
-Los datos de las tareas se obtienen de la API pública [JSONPlaceholder](https://jsonplaceholder.typicode.com/todos).
-
-## Contribuir
-
-Si deseas contribuir a este proyecto, siéntete libre de abrir problemas o enviar solicitudes de extracción en el repositorio de GitHub.
-
-## Licencia
-
-Este proyecto está bajo la licencia [MIT](LICENSE).
+## License
+This project is licensed under the [MIT](LICENSE) license.
 
 ---
 
-Si tienes alguna pregunta o necesitas ayuda, no dudes en contactar a los desarrolladores:
+If you have any questions or need assistance, feel free to contact the developers:
+- Name: [Juan Cruz Tobares and Guillermo Daniel Kissling]
+- Email: [j.tobares@itecriocuarto.org.ar, g.kissling@itecriocuarto.org.ar]
 
-- Nombre: [Tobares Juan Cruz y Kissling Guillermo Daniel]
-- Correo Electrónico: [j.tobares@itecriocuarto.org.ar, g.kissling@itecriocuarto.org.ar]
-
-¡Esperamos que disfrutes usando Aplicación_de_Listado_de_Tareas! 😊
-```
+We hope you enjoy using Aplicación_de_Listado_de_Tareas! 😊
